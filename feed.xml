@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://mattyvapor.github.io">
+    <title>Matt Vapor&#39;s Digital Garden</title>
+    <link href="https://mattyvapor.github.io/feed.xml" rel="self" >
+    <link href="https://mattyvapor.github.io" >
+    <updated>2026-05-06T10:57:04Z</updated>
+    <id>https://mattyvapor.github.io</id>
+        <entry>
+            <title>
+                Wiki
+                
+            </title>
+            <updated>2026-05-06T10:56:51Z</updated>
+            <id>https://mattyvapor.github.io/wiki/index/</id>
+            <content type="html">
+                
+            </content>
+            <link href="https://mattyvapor.github.io/wiki/index/" >
+        </entry>
+        <entry>
+            <title>
+                Home
+                
+            </title>
+            <updated>2026-05-06T10:56:51Z</updated>
+            <id>https://mattyvapor.github.io/</id>
+            <content type="html">
+                &lt;p&gt;Matt Vapor&lt;/p&gt;
+&lt;p&gt;Test&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://mattyvapor.github.io/wiki/index/&quot;&gt;index&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://mattyvapor.github.io/" >
+        </entry>
+</feed>

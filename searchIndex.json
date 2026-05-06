@@ -1,15 +1,15 @@
 [
 {
 		"title": "Home",
-		"date":"Wed May 06 2026 10:53:42 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed May 06 2026 10:56:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "Matt Vapor\nTest\n<a class=\"internal-link\" target=\"\" data-note-icon=\"undefined\" href=\"/wiki/index/\">index</a>",
+		"content": "Matt Vapor\nTest\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/wiki/index/\">index</a>",
 		"tags": [ "note","gardenEntry"]
 },
 
 {
 		"title": "Wiki",
-		"date":"Wed May 06 2026 10:53:42 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed May 06 2026 10:56:51 GMT+0000 (Coordinated Universal Time)",
 		"url":"/wiki/index/",
 		"content": "",
 		"tags": [ "note","wiki"]
