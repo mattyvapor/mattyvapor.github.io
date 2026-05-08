@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>Public Housing in Western Australia</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -211,7 +211,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/wiki/public-housing-wa/public-housing-in-western-australia/">Public Housing in Western Australia </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/wiki/public-housing-wa/public-housing-in-western-australia/">Public Housing in Western Australia </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -231,7 +231,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
 </div>
 </div>
 </div>
@@ -260,27 +260,64 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-05-08T09:26:39.944Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-05-08T09:26:39.944Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-05-08T09:26:39.944Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1></h1>
+<h1 data-note-icon="">Public Housing in Western Australia</h1>
 <div class="header-meta">
 <div class="header-tags">
+<a class="tag" onclick="toggleTagSearch(this)">
+#wiki
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#public-housing
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#western-australia
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#australia
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#housing-policy
+</a>
 </div>
 </div>
 </header>
-<h1 id="welcome" tabindex="-1">Welcome!</h1>
-<p>Hi, I'm Matt Vapor, I'm a researcher, educator and PhD candidate examining homelessness within Australia. You may or may not know me from my work at <a href="https://beneaththesurface.au" target="_blank" class="external-link">Beneath the Surface AU</a></p>
-<h2 id="what-you-ll-find-here-a-repository" tabindex="-1">What You'll Find Here: A Repository</h2>
-<p>This isn't a blog, it's more of a repository of my work, ideas, research and passions. Think of it more like a digital garden.</p>
-<h4 id="articles" tabindex="-1">Articles</h4>
-<p>Here you'll find articles that I've written, some are published in journals, others published else where.</p>
-<h3 id="ph-d" tabindex="-1">PhD</h3>
-<p>This is where my PhD progress and associated information resides.</p>
-<h4 id="resources" tabindex="-1">Resources</h4>
-<p>Any resources that I create as part of my teaching will reside here. These are usually open source with attribution unless specified otherwise. So feel free to use and modify them!</p>
-<h4 id="teaching" tabindex="-1">Teaching</h4>
-<p>Here you can find out more information regarding my teaching. What I'm teaching and the courses I've developed.</p>
-<h4 id="wiki" tabindex="-1">Wiki</h4>
-<p>This is a wiki that will link to sources and information that I've used and / or found useful and that's associated to my work. A key thing to keep in mind is just because something exists here doesn't mean that I agree with it.</p>
-<p><a class="internal-link" target="" data-note-icon="" href="/wiki/index/">index</a></p>
+<h1 id="public-housing-in-western-australia" tabindex="-1">Public Housing in Western Australia</h1>
+<p>Public housing in Western Australia has a long history, stretching from a modest worker loan scheme established in 1912 through to the large-scale social housing system that exists today. It has never been a simple story of the state providing a welfare safety net. The system was shaped by competing pressures — economic development, population growth, workforce housing demand, and later the specific and often discriminatory treatment of Aboriginal people.</p>
+<h2 id="the-workers-homes-board-1912-1947" tabindex="-1">The Workers' Homes Board (1912–1947)</h2>
+<p>The <a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/workers-homes-act-1911/">Workers Homes Act 1911</a> established the Workers' Homes Board in 1912. It was not, in any meaningful sense, a welfare programme. Workers earning up to £300 a year could apply for state-backed loans to build or buy a home — land on perpetual lease at 3% per annum, dwelling repayments at 5% over 30 years, with advances capped at £550. The state was in the business of helping working men into homeownership, not providing tenure.</p>
+<p>Sharp (1993) frames the Board as driven by three overlapping demands: industry's need for workforce housing, low-income earners' need for shelter, and the state's interest in population and economic growth. Housing was a tool, and access to it reflected that. The Board's clients had some influence over how it operated — Sharp finds evidence that community values and tenant agency shaped policies — but the underlying logic was housing as a reward for productive workers, not as a right.</p>
+<h2 id="the-state-housing-commission-1947-1985-and-homeswest-1985" tabindex="-1">The State Housing Commission (1947–1985) and Homeswest (1985–)</h2>
+<p>After World War II the Workers' Homes Board was replaced by the State Housing Commission, which operated in a context of acute housing shortage and mass migration. The Commission built at scale, attracted migrants with housing promises, decentralised Perth-based bureaucracy, and provided rental housing to low-income households. Sharp's assessment is that the state's role was, on balance, positive — it genuinely housed people who couldn't otherwise afford accommodation.</p>
+<p>In 1985 the Commission rebranded as Homeswest. The institutional name changed but the fundamental tensions did not: demand consistently outstripped supply, eligibility criteria remained a rationing mechanism, and access was never straightforward for the state's most marginalised residents.</p>
+<h2 id="aboriginal-access-and-discrimination" tabindex="-1">Aboriginal Access and Discrimination</h2>
+<p>The most documented failure of the WA public housing system is its treatment of Aboriginal people. In 2004 the Equal Opportunity Commission conducted a formal inquiry — the first of its kind in Australia — into discriminatory practices in the provision of public housing and related services to Aboriginal people in WA. The resulting report, <a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/finding-a-place-eoc-report-2010/">Finding a Place - EOC Report 2010</a>, found systemic problems across staffing, communication, policy design, tenancy management, and the appeals process.</p>
+<p>The follow-up implementation and monitoring committee, reporting in 2010, tracked what the Department of Housing had and hadn't changed. Progress was uneven. Employment of Aboriginal staff increased but remained low at senior levels. Interpreter services improved in some regions. Eviction rates for Aboriginal tenants remained disproportionate in several regions well into 2010.</p>
+<p>The EOC inquiry didn't find individual bad actors so much as a system that hadn't been designed with Aboriginal people in mind, and hadn't been reformed enough to compensate.</p>
+<h2 id="housing-as-social-control" tabindex="-1">Housing as Social Control</h2>
+<p>Sharp's (1993) central argument is worth sitting with: throughout the history of both the Workers' Homes Board and the State Housing Commission, housing functioned as social control. Allocation was a reward, not a right. Tenants and applicants who didn't conform to expected norms — in behaviour, in household structure, in appearance of financial responsibility — were disadvantaged or excluded.</p>
+<p>That logic didn't disappear when the Commission became Homeswest. The EOC inquiry thirty years later found it still operating in the ways the Department managed debt, evictions, and appeals.</p>
+<h2 id="key-takeaways" tabindex="-1">Key Takeaways</h2>
+<ul>
+<li>Public housing in WA began as a worker homeownership scheme in 1912, not a welfare programme.</li>
+<li>The Workers' Homes Board prioritised workforce housing and population growth over housing as a social right.</li>
+<li>The State Housing Commission (post-WWII) and its successor Homeswest expanded the system significantly but retained rationing logic.</li>
+<li>The EOC inquiry (2004, final report 2010) found systematic discrimination against Aboriginal people across the full range of public housing services.</li>
+<li>Sharp's (1993) thesis — housing as social control rather than right — remains a useful frame for understanding who gets housed and who doesn't across the full period.</li>
+</ul>
+<h2 id="related" tabindex="-1">Related</h2>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/workers-homes-act-1911/">Workers Homes Act 1911</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/sharp-1993-a-history-of-public-housing-in-western-australia/">Sharp 1993 - A History of Public Housing in Western Australia</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/finding-a-place-eoc-report-2010/">Finding a Place - EOC Report 2010</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/index/">Homelessness in Western Australia</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/housing-economics/index/">Housing Economics</a></li>
+</ul>
+<h2 id="sources" tabindex="-1">Sources</h2>
+<ul>
+<li>Sharp, M. (1993). <em>A History of Public Housing in Western Australia: The Workers' Homes Board and State Housing Commission</em>. Unpublished thesis.</li>
+<li><em>Workers' Homes Act 1911</em> (No. 8 of 1912) (WA).</li>
+<li>Equal Opportunity Commission. (2010). <em>Finding a Place: Final Report of the Implementation and Monitoring Committee</em>. Perth: EOC.</li>
+</ul>
 </main>
 <aside>
 <div class="sidebar">
@@ -322,23 +359,21 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#welcome">Welcome!</a>
+<li><a href="#public-housing-in-western-australia">Public Housing in Western Australia</a>
 <ol>
-<li><a href="#what-you-ll-find-here-a-repository">What You'll Find Here: A Repository</a>
-<ol>
-<li><a href="#articles">Articles</a>
+<li><a href="#the-workers-homes-board-1912-1947">The Workers' Homes Board (1912–1947)</a>
 </li>
-<li><a href="#ph-d">PhD</a>
-<ol>
-<li><a href="#resources">Resources</a>
+<li><a href="#the-state-housing-commission-1947-1985-and-homeswest-1985">The State Housing Commission (1947–1985) and Homeswest (1985–)</a>
 </li>
-<li><a href="#teaching">Teaching</a>
+<li><a href="#aboriginal-access-and-discrimination">Aboriginal Access and Discrimination</a>
 </li>
-<li><a href="#wiki">Wiki</a>
+<li><a href="#housing-as-social-control">Housing as Social Control</a>
 </li>
-</ol>
+<li><a href="#key-takeaways">Key Takeaways</a>
 </li>
-</ol>
+<li><a href="#related">Related</a>
+</li>
+<li><a href="#sources">Sources</a>
 </li>
 </ol>
 </li>
@@ -348,7 +383,10 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/index/" data-note-icon="" class="backlink">Wiki</a>
+<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/public-housing-wa/finding-a-place-eoc-report-2010/" data-note-icon="" class="backlink">Finding a Place - EOC Report 2010</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/public-housing-wa/sharp-1993-a-history-of-public-housing-in-western-australia/" data-note-icon="" class="backlink">Sharp 1993 - A History of Public Housing in Western Australia</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/public-housing-wa/workers-homes-act-1911/" data-note-icon="" class="backlink">Workers Homes Act 1911</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/public-housing-wa/index/" data-note-icon="" class="backlink">Public Housing in Western Australia</a>
 </div></div>
 </div>
 </div>
@@ -362,6 +400,9 @@ On this page
 <iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
 <script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>

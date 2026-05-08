@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>WA Response to Report 88 2023</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -161,7 +161,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/wiki/homelessness-wa/wa-response-to-report-88-2023/">WA Response to Report 88 2023 </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/wiki/homelessness-wa/wa-response-to-report-88-2023/">WA Response to Report 88 2023 </a>
 </div>
 </div>
 </div>
@@ -231,7 +231,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/">Home </a>
 </div>
 </div>
 </div>
@@ -260,27 +260,68 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2026-05-08T09:26:39.944Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2026-05-08T09:26:39.944Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2026-05-08T09:26:39.944Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1></h1>
+<h1 data-note-icon="">WA Response to Report 88 2023</h1>
 <div class="header-meta">
 <div class="header-tags">
+<a class="tag" onclick="toggleTagSearch(this)">
+#wiki
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#homelessness
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#western-australia
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#housing-policy
+</a>
+<a class="tag" onclick="toggleTagSearch(this)">
+#government-response
+</a>
 </div>
 </div>
 </header>
-<h1 id="welcome" tabindex="-1">Welcome!</h1>
-<p>Hi, I'm Matt Vapor, I'm a researcher, educator and PhD candidate examining homelessness within Australia. You may or may not know me from my work at <a href="https://beneaththesurface.au" target="_blank" class="external-link">Beneath the Surface AU</a></p>
-<h2 id="what-you-ll-find-here-a-repository" tabindex="-1">What You'll Find Here: A Repository</h2>
-<p>This isn't a blog, it's more of a repository of my work, ideas, research and passions. Think of it more like a digital garden.</p>
-<h4 id="articles" tabindex="-1">Articles</h4>
-<p>Here you'll find articles that I've written, some are published in journals, others published else where.</p>
-<h3 id="ph-d" tabindex="-1">PhD</h3>
-<p>This is where my PhD progress and associated information resides.</p>
-<h4 id="resources" tabindex="-1">Resources</h4>
-<p>Any resources that I create as part of my teaching will reside here. These are usually open source with attribution unless specified otherwise. So feel free to use and modify them!</p>
-<h4 id="teaching" tabindex="-1">Teaching</h4>
-<p>Here you can find out more information regarding my teaching. What I'm teaching and the courses I've developed.</p>
-<h4 id="wiki" tabindex="-1">Wiki</h4>
-<p>This is a wiki that will link to sources and information that I've used and / or found useful and that's associated to my work. A key thing to keep in mind is just because something exists here doesn't mean that I agree with it.</p>
-<p><a class="internal-link" target="" data-note-icon="" href="/wiki/index/">index</a></p>
+<h1 id="wa-response-to-report-88-2023" tabindex="-1">WA Response to Report 88 (2023)</h1>
+<p>Report 88 — <em>Funding of Homelessness Services in Western Australia</em> — was the final report of the Standing Committee on Estimates and Financial Operations, released on 22 June 2023. The inquiry was initiated in November 2021, ran for 19 months, received 48 submissions, and held 27 public hearings. It made 57 recommendations addressed to government agencies.</p>
+<p>The WA Government's response to those 57 recommendations is the document this article examines.</p>
+<h2 id="the-headline-figures" tabindex="-1">The headline figures</h2>
+<p>The government's response centred on its $2.6 billion four-year investment in social housing and homelessness measures — a figure the response describes as a record. The investment includes delivering 4,000 new social homes. At the time of the response, 1,356 new social homes had been added since July 2021, with more than 1,100 under contract or construction.</p>
+<p>Homelessness services specifically receive around $225 million per year. This funds community sector organisations delivering specialist homelessness services across WA.</p>
+<h2 id="specific-programmes" tabindex="-1">Specific programmes</h2>
+<p>Several specific initiatives are named in the response:</p>
+<p><em>All Paths Lead to Home</em> (2020–2030) is the overarching state strategy, incorporating <a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/housing-first/">Housing First</a> principles.</p>
+<p><em>Djuripiny Mia</em> is a 100-home development with wraparound support, designed for people with complex needs.</p>
+<p><em>Common Ground</em> developments in East Perth and Mandurah provide permanent supportive housing, combining social housing tenants from the waiting list with people experiencing homelessness.</p>
+<p>The <em>Housing First Homelessness Initiative</em> targets rough sleepers with assertive outreach and immediate housing placement.</p>
+<p><em>HEART</em> (Homeless Emergency and Response Team) provides outreach in the inner city.</p>
+<p>The <em>By Name List</em> — a real-time registry of people experiencing homelessness in a given area — received $1.3 million in funding via the Australian Alliance to End Homelessness. It is designed to coordinate service responses to individuals rather than operating through general programme eligibility.</p>
+<h2 id="commonwealth-funding-and-the-nhha" tabindex="-1">Commonwealth funding and the NHHA</h2>
+<p>The response gives significant attention to the National Housing and Homelessness Agreement (NHHA), which began in July 2018 and governs Commonwealth funding to the states for housing and homelessness. WA's formal position is that the Commonwealth must do more: the previous NHHA was a 50/50 cost-sharing arrangement that a 2022 Productivity Commission review found hadn't driven wider housing policy reform. The bilateral schedule expired June 2023, with a one-year extension in place while negotiations continued.</p>
+<p>The response frames multiple drivers of homelessness — income support levels, welfare settings, tax treatment of housing investment — as primarily Commonwealth responsibilities. This is accurate on the formal division of powers, though it also functions as a way of managing expectations about what the state can solve alone.</p>
+<h2 id="what-the-response-doesn-t-address" tabindex="-1">What the response doesn't address</h2>
+<p>The 57 recommendations cover a broader range than the response's headline investment figures suggest. The response accepts, accepts in principle, or notes the recommendations without providing granular implementation timelines for all of them. The gap between funding announcements and what actually changes in service delivery for people experiencing homelessness is a recurring issue in WA homelessness policy.</p>
+<p>The supply question is real and serious. A housing system that is $2.6 billion over four years ahead of where it was is still operating in a context of historically low vacancy rates in the private rental market and a public housing waiting list that measures in years for most applicants.</p>
+<p>For the mortality context that makes this urgent, see <a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/homeless-mortality/">Homeless Mortality</a> and <a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/tuson-et-al-2024-tracking-deaths-of-homeless-people-perth/">Tuson et al. 2024 - Tracking Deaths of Homeless People Perth</a>.</p>
+<h2 id="key-takeaways" tabindex="-1">Key Takeaways</h2>
+<ul>
+<li>Report 88 (June 2023) made 57 recommendations following a 19-month inquiry into WA homelessness services funding.</li>
+<li>The WA Government committed $2.6 billion over four years, including 4,000 new social homes and $225 million/year in homelessness services.</li>
+<li>Key programmes: All Paths Lead to Home, Djuripiny Mia, Common Ground (East Perth + Mandurah), Housing First Homelessness Initiative, HEART outreach, By Name List.</li>
+<li>The NHHA (Commonwealth-state funding agreement) is a live political issue; WA argues the Commonwealth must increase its contribution.</li>
+<li>The gap between commitment and delivery, and between new supply and actual waiting list demand, remains significant.</li>
+</ul>
+<h2 id="related" tabindex="-1">Related</h2>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/housing-first/">Housing First</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/homeless-mortality/">Homeless Mortality</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/homelessness-wa/tuson-et-al-2024-tracking-deaths-of-homeless-people-perth/">Tuson et al. 2024 - Tracking Deaths of Homeless People Perth</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/public-housing-wa/index/">Public Housing in Western Australia</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/wiki/housing-economics/index/">Housing Economics</a></li>
+</ul>
+<h2 id="sources" tabindex="-1">Sources</h2>
+<ul>
+<li>WA Government. (2023). <em>West Australian Government Response to Report 88: Funding of Homelessness Services in Western Australia</em>. Perth: Government of Western Australia.</li>
+</ul>
 </main>
 <aside>
 <div class="sidebar">
@@ -322,23 +363,21 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#welcome">Welcome!</a>
+<li><a href="#wa-response-to-report-88-2023">WA Response to Report 88 (2023)</a>
 <ol>
-<li><a href="#what-you-ll-find-here-a-repository">What You'll Find Here: A Repository</a>
-<ol>
-<li><a href="#articles">Articles</a>
+<li><a href="#the-headline-figures">The headline figures</a>
 </li>
-<li><a href="#ph-d">PhD</a>
-<ol>
-<li><a href="#resources">Resources</a>
+<li><a href="#specific-programmes">Specific programmes</a>
 </li>
-<li><a href="#teaching">Teaching</a>
+<li><a href="#commonwealth-funding-and-the-nhha">Commonwealth funding and the NHHA</a>
 </li>
-<li><a href="#wiki">Wiki</a>
+<li><a href="#what-the-response-doesn-t-address">What the response doesn't address</a>
 </li>
-</ol>
+<li><a href="#key-takeaways">Key Takeaways</a>
 </li>
-</ol>
+<li><a href="#related">Related</a>
+</li>
+<li><a href="#sources">Sources</a>
 </li>
 </ol>
 </li>
@@ -348,7 +387,11 @@ On this page
 </div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Pages mentioning this page</div>
-<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/index/" data-note-icon="" class="backlink">Wiki</a>
+<div class="backlink-list"><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/homelessness-wa/homeless-mortality/" data-note-icon="" class="backlink">Homeless Mortality</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/homelessness-wa/housing-first/" data-note-icon="" class="backlink">Housing First</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/homelessness-wa/tuson-et-al-2024-tracking-deaths-of-homeless-people-perth/" data-note-icon="" class="backlink">Tuson et al. 2024 - Tracking Deaths of Homeless People Perth</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/homelessness-wa/index/" data-note-icon="" class="backlink">Homelessness in Western Australia</a>
+</div><div class="backlink-card"><i icon-name="link"></i><a href="/wiki/public-housing-wa/finding-a-place-eoc-report-2010/" data-note-icon="" class="backlink">Finding a Place - EOC Report 2010</a>
 </div></div>
 </div>
 </div>
@@ -362,6 +405,9 @@ On this page
 <iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
 </iframe>
 <script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>
